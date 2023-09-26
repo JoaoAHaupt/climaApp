@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{ 
-    background-color: #000000;
+    background-color: #504d4d;
 }
 .lepo{
     width: 10px;
@@ -21,6 +21,13 @@ body{
     box-shadow: 0px 10px 30px #3eb9e2; 
 }
 
+.titulo{
+    
+    margin-bottom: 20px;
+    color: #3eb9e2;
+    font-size: 45px;
+}
+
 .pesquisa{
     width: 100%;
     display: flex;
@@ -34,12 +41,12 @@ body{
     outline-color: #e5e0e0;
     border-radius: 25px;
     padding: 15px 25px;
-    margin-left: 50px;
-    margin-right: 40px;
-
+    margin-left: 20px;
+    margin-bottom: 40px;
     background: #070e0d;
     height: 50px;
-    flex:1;
+    justify-content: space-evenly;
+    display: flex;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
@@ -50,17 +57,31 @@ body{
 .pesquisa button{
     border: 0;
     outline: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-    background: #ebfffc;
+
+    margin-bottom: 40px;
+ 
+  
+    background: #242525;
     cursor: pointer;
 }
 
 .pesquisa button img{
-    width: 16px;    
+    width: 50px; 
+    height: 50px;   
     border-radius: 50%;
-
+    padding: 4px 4px 4px;
 }
 
+.clima .icone-clima{
+    height: 240px;
+    box-shadow: 0px 0px 40px #f1270d; 
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.clima .temperatura{
+    font-family: Arial, Helvetica, sans-serif;
+}
