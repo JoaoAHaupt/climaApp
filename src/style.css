@@ -47,6 +47,12 @@ body{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #302727;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pesquisa input:hover {
+    background-color: #cee2f0; 
+    transform: scale(1.1);
 }
 
 .pesquisa button {
@@ -57,6 +63,12 @@ body{
     border-radius: 50%;
     background: #deedeb;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pesquisa button:hover {
+    background-color: #cee2f0; 
+    transform: scale(1.2);
 }
 
 .pesquisa button img {
