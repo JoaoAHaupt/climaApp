@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{ 
-    background-color: #504d4d;
+    background-color: #302727;
 }
 .lepo{
     width: 10px;
@@ -13,7 +13,7 @@ body{
 .caixa{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(180deg, #faef27, #3eb9e2);
+    background: linear-gradient(70deg, #0deb5b, #3eb9e2);
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -24,64 +24,103 @@ body{
 .titulo{
     
     margin-bottom: 20px;
-    color: #3eb9e2;
+    color: #ffffff;
     font-size: 45px;
 }
 
 .pesquisa{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex: 1;
 }
 
-.pesquisa input{
+.pesquisa input {
     border: 0;
-    outline-color: #e5e0e0;
+    outline-color: #0deb5b;
     border-radius: 25px;
     padding: 15px 25px;
     margin-left: 20px;
-    margin-bottom: 40px;
-    background: #070e0d;
+    margin-right: 16px;
+    background: #deedeb;
     height: 50px;
-    justify-content: space-evenly;
-    display: flex;
     font-size: large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #302727;
 }
 
-
-
-.pesquisa button{
+.pesquisa button {
     border: 0;
     outline: 0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
-    margin-bottom: 40px;
- 
-  
-    background: #242525;
+    background: #deedeb;
     cursor: pointer;
 }
 
-.pesquisa button img{
-    width: 50px; 
-    height: 50px;   
+.pesquisa button img {
+    width: 27px;
+    height: 30px;
     border-radius: 50%;
     padding: 4px 4px 4px;
 }
 
 .clima .icone-clima{
-    height: 240px;
-    box-shadow: 0px 0px 40px #f1270d; 
-    border-radius: 50%;
-    margin: 30px;
+    height: 260px;
+    
+    
 }
 
-.clima .temperatura{
-    font-family: Arial, Helvetica, sans-serif;
+
+
+.clima h1{
+    color: #cff0ec;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.clima h2{
+    color: #cff0ec;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.coluna img{
+    width: 50px;
+    margin-right: 18px;
+    
+}
+
+.humidity, .vento{
+    font-size: 27px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+    color: #cff0ec;
+    font-weight: bold;
+}
+
+.velocidade-text{
+    color:#cff0ec;
+    font-weight: bold;
+}
+
+.umidade-text{
+    color:#cff0ec;
+    font-weight: bold;
 }
